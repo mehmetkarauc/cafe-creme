@@ -1,12 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Layout from './components/Layout.js';
 import './scss/main.scss';
+import {
+  BrowserRouter as Router, 
+  Routes,
+  Route
+} from 'react-router-dom';
+
 import reportWebVitals from './reportWebVitals';
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import Menu from './pages/Menu.js';
+import Gallery from './pages/Gallery.js';
+import Contact from './pages/Contact.js';
+import Order from './pages/Order.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>hello world!</h1>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/order" element={<Order />} />
+        </Routes>
+      </Layout>
+    </Router>
   </React.StrictMode>
 );
 

@@ -4,5 +4,18 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
+* {
+    font-family: $font;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    width: 100%;
+    color: $primaryColor;
+}
+
+#root {
+    height: 100%;
+}
 
