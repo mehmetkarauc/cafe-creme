@@ -7,8 +7,8 @@ function Navbar() {
     const navigate = useNavigate();
     const [menuOpen, setMenuOpen] = useState(false);
     const [size, setSize] = useState({
-        width: undefined,
-        height: undefined,
+        width: window.innerWidth,
+        height: window.innerHeight,
     });
 
     useEffect(() => {
@@ -18,6 +18,7 @@ function Navbar() {
                 height: window.innerHeight,
             });
         };
+
         window.addEventListener('resize', handleRsize);
 
         return () => window.removeEventListener('resize', handleRsize);
