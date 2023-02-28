@@ -3,7 +3,6 @@ $font: Arial, Helvetica, sans-serif;
 $primaryColor: #2f4f4f;
 $secondaryColor: #e7ac5e;
 $lightColor: #ffffff;
-$bg: rgba(255, 255, 255, 0.986);
 
 $spacing-md:16px;
 $spacing-lrg: 32px;
@@ -11,6 +10,8 @@ $spacing-lrg: 32px;
 $borderRadius: 16px;
 
 $headerHeight: 100px;
+
+$footerHeight: 100px;
 
 @mixin breakpoint($point) {
     @if $point == md {

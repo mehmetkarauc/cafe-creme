@@ -40,9 +40,9 @@ function Navbar() {
     };
 
    return ( 
-   <header id='navbarDesktop'>
+   <header id='navbar'>
     <div id='content'>
-        <Link id="logo" to="/"> Cafe Cremes </Link>
+        <Link id="logo" to="/"> Cafe Creme </Link>
         <nav className={`${menuOpen && size.width < 1010 ? 'isMenu' : ''}`}>
             <ul>
                 <li>
