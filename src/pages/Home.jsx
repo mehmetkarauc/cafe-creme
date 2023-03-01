@@ -1,8 +1,9 @@
 import React from 'react';
+import OneColumnImage from '../components/OneColumnImage';
 
 function Home() {
   return (
-    <h1>Home</h1>
+    <OneColumnImage />
   )
 }
 
