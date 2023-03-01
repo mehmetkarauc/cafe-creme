@@ -1,6 +1,36 @@
-.oneColumnContentStyle {
-    margin: 0;
-    padding: 0 400px;
+#oneColumnContent {
+    @extend .container;
+    width: 60% !important;
     text-align: justify;
-    padding-top: 5px;
+    padding: 0px !important;
+
+    @media only screen and (max-width: 950px) {
+        width: 65% !important;
+    }
 }
+
+
+
+// .oneColumnContentStyle {
+//     margin: 0;
+//     padding: 0 400px;
+//     text-align: justify;
+//     padding-top: 5px;
+
+//     @media only screen and (max-width: 1760px) {
+//         padding: 0 300px;
+//     }
+
+//     @media only screen and (max-width: 1550px) {
+//         padding: 0 200px;
+//     }
+
+//     @media only screen and (max-width: 1200px) {
+//         padding: 0 150px;
+//         font-size: 15px;
+//     }
+
+//     @media only screen and (max-width: 950px) {
+//         padding: 0 100px;
+//     }
+// }
