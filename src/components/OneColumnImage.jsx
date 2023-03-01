@@ -1,10 +1,9 @@
 import React from 'react';
-import HomeBackgroundImage from '../images/Breakfast.png';
 
-function OneColumnImage() {
+function OneColumnImage(props) {
   return (
     <div className='cropped'>
-        <img src={ HomeBackgroundImage } alt="Home Background"/>
+        <img src={ props.url } alt={ props.alt }/>
     </div>
   )
 }

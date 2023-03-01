@@ -1,9 +1,10 @@
 import React from 'react';
 import OneColumnImage from '../components/OneColumnImage';
+import HomeBackground from '../images/Breakfast.png';
 
 function Home() {
   return (
-    <OneColumnImage />
+    <OneColumnImage url={ HomeBackground } alt="Home Background"/>
   )
 }
 
