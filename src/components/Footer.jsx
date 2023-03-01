@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { BsFacebook } from 'react-icons/bs';
 import { AiOutlineTwitter } from 'react-icons/ai';

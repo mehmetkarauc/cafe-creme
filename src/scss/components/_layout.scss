@@ -1,3 +1,6 @@
-.container {
+.containers {
     height: calc(100vh - #{$headerHeight} - #{$footerHeight});
+    margin: 0;
+    padding: 0;
 }
+

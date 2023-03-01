@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Layout from './components/Layout.js';
+import Layout from './components/Layout.jsx';
 import './scss/main.scss';
 import {
   BrowserRouter as Router, 
@@ -9,12 +9,12 @@ import {
 } from 'react-router-dom';
 
 import reportWebVitals from './reportWebVitals';
-import Home from './pages/Home.js';
-import About from './pages/About.js';
-import Menu from './pages/Menu.js';
-import Gallery from './pages/Gallery.js';
-import Contact from './pages/Contact.js';
-import Order from './pages/Order.js';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Menu from './pages/Menu.jsx';
+import Gallery from './pages/Gallery.jsx';
+import Contact from './pages/Contact.jsx';
+import Order from './pages/Order.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
