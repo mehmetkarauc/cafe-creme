@@ -1,5 +1,5 @@
 .containers {
-    height: calc(100vh - #{$headerHeight} - #{$footerHeight});
+    height: calc(100% - #{$headerHeight} - #{$footerHeight});
     margin: 0;
     padding: 0;
 }
