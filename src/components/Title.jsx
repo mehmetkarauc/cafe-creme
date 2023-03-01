@@ -2,7 +2,7 @@ import React from 'react';
 
 function Title(props) {
   return (
-    <p className="titleStyle"> - { props.text } - </p>
+    <p id="title" className="titleStyle"> - { props.text } - </p>
   )
 }
 
