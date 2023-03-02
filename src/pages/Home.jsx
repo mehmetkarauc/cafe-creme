@@ -1,6 +1,6 @@
 import React from 'react';
 import Caption from '../components/Caption.jsx';
-import OneColumnImage from '../components/OneColumnImage.jsx';
+import FullLengthImage from '../components/FullLengthImage.jsx';
 import ThreeColumnImage from '../components/ThreeColumnImage.jsx';
 import OneColumnContent from '../components/OneColumnContent.jsx';
 import Title from '../components/Title.jsx';
@@ -16,7 +16,7 @@ const oneColumnContent = "Welcome to Cafe Creme, a lovely, family run cafe on Ro
 function Home() {
   return (
     <div>
-      <OneColumnImage url={ HomeBackground } alt="Home Background"/> 
+      <FullLengthImage url={ HomeBackground } alt="Home Background"/> 
       <Title text={ title }/>
       <Caption text={ caption }/>
       <OneColumnContent text={ oneColumnContent }/>
