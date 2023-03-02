@@ -10,7 +10,6 @@
 
         > img {
             @extend .col-sm-3;
-            margin: auto;
             height: auto;
             width: auto;
             padding: 0px;
@@ -31,47 +30,3 @@
         }
     }
 }
-
-
-
-
-// .threeColumnImageStyle {
-//     display: flex;
-//     padding: 30px 400px;
-
-    // @media only screen and (max-width: 1760px) {
-    //     padding: 30px 300px;
-    // }
-
-    // @media only screen and (max-width: 1550px) {
-    //     padding: 30px 200px;
-    // }
-
-    // @media only screen and (max-width: 1200px) {
-    //     padding: 30px 150px;
-    // }
-
-    // @media only screen and (max-width: 950px) {
-    //     padding: 0 100px;
-    //     display: grid;
-    //     margin: 10px 0;
-    // }
-
-//     img {
-//         width: 300px;
-//         height: 300px;
-//         margin: auto;
-
-//         @media only screen and (max-width: 1550px) {
-//             width: 250px;
-//             height: 250px;
-//             margin: auto;
-//         }
-
-//         @media only screen and (max-width: 1200px) {
-//             width: 200px;
-//             height: 200px;
-//             margin: auto;
-//         }
-//     }
-// }
