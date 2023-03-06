@@ -13,6 +13,12 @@ $headerHeight: 100px;
 
 $footerHeight: 100px;
 
+$breakpointSm: 500px;
+$breakpointMd: 750px;
+$breakpointLg: 1000px;
+$breakpointXLg: 1300px;
+$breakpointXXLg: 1500px;
+
 @mixin breakpoint($point) {
     @if $point == md {
         @media (min-width: 48em) {
