@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai';
 
 function Navbar() {
-    const navigate = useNavigate();
     const [menuOpen, setMenuOpen] = useState(false);
     const [size, setSize] = useState({
         width: window.innerWidth,
@@ -32,7 +31,6 @@ function Navbar() {
 
     const orderClickHandler = () => {
         menuToggleHandler();
-        navigate('/order');
     };
 
     const menuToggleHandler = () => {
@@ -40,7 +38,7 @@ function Navbar() {
     };
 
    return ( 
-   <header id='navbar'>
+   <header data-cy='navbar' id='navbar'>
     <div id='content'>
         <Link id="logo" to="/"> Cafe Creme </Link>
         <nav className={`${menuOpen && size.width < 1010 ? 'isMenu' : ''}`}>
@@ -60,7 +58,7 @@ function Navbar() {
                 <li>
                     <Link to="/contact" onClick={menuToggleHandler}>Contact</Link>
                 </li>
-                <button onClick={orderClickHandler}> Order </button>
+                <Link to="/order"><button onClick={orderClickHandler}> Order </button></Link>
             </ul>
         </nav>
         <div id='toggle'>
