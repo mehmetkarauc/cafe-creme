@@ -1,0 +1,14 @@
+.productList {
+    @extend .container-fluid;
+    height: 620px;
+
+    > p {
+        margin: 20px;
+        height: 100%;
+        width: 75%;
+        padding: 20px 1.5rem;
+        border-radius: 5px;
+        border: 2px solid $primaryColor;
+        font-size: 22px;
+    }
+}

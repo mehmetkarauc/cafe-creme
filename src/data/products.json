@@ -1,0 +1,170 @@
+{
+    "Set Brekfast": [
+        {
+            "id": 1,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        },
+        {
+            "id": 2,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        },
+        {
+            "id": 3,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        },
+        {
+            "id": 4,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Create Your Own": [
+        {
+            "id": 5,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        },
+        {
+            "id": 6,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        },
+        {
+            "id": 7,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        },
+        {
+            "id": 8,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Homemade Soups": [
+        {
+            "id": 9,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }    
+    ],
+    "Omelettes": [
+        {
+            "id": 10,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Brunch": [
+        {
+            "id": 11,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Jacket Potatoes": [
+        {
+            "id": 12,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Burgers": [
+        {
+            "id": 13,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Childrens Menu": [
+        {
+            "id": 14,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Grills": [
+        {
+            "id": 15,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Fish": [
+        {
+            "id": 16,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Dessert": [
+        {
+            "id": 17,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Sides": [
+        {
+            "id": 18,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Drinks": [
+        {
+            "id": 19,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ],
+    "Alcohol": [
+        {
+            "id": 20,
+            "name": "English Breakfast",
+            "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
+            "price": "18.30",
+            "imageURL": "../images/Food1.png"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+.productNavbar {
+    @extend .container-fluid;
+    padding: 0;
+    height: 50px;
+    align-content: center;
+
+    > nav {
+        height: 100%;
+
+        > ul {
+            margin: 20px;
+            height: 100%;
+            padding: 0;
+            border-radius: 5px;
+            border: 2px solid $primaryColor;
+            display: flex;
+            align-items: center;
+
+            #section {
+                margin: 0 20px;
+                white-space: nowrap;
+                font-size: 18px;
+                text-decoration: none;
+                color: $primaryColor;
+            }
+        }
+    }
+}
