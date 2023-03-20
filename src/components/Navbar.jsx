@@ -58,7 +58,7 @@ function Navbar() {
                 <li>
                     <Link to="/contact" onClick={menuToggleHandler}>Contact</Link>
                 </li>
-                <Link to="/order"><button onClick={orderClickHandler}> Order </button></Link>
+                <Link to="/orderSystem"><button onClick={orderClickHandler}> Order </button></Link>
             </ul>
         </nav>
         <div id='toggle'>

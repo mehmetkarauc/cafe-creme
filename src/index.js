@@ -14,7 +14,8 @@ import About from './pages/About.jsx';
 import Menu from './pages/Menu.jsx';
 import Gallery from './pages/Gallery.jsx';
 import Contact from './pages/Contact.jsx';
-import Order from './pages/Order.jsx';
+// import Order from './pages/Order.jsx';
+import OrderSystem from './pages/OrderSystem.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +28,7 @@ root.render(
           <Route path="/menu" element={<Menu />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/order" element={<Order />} />
+          <Route path="/orderSystem" element={<OrderSystem />} />
         </Routes>
       </Layout>
     </Router>
