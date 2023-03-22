@@ -1,6 +1,8 @@
 #title {
-    @extend .container;
-    margin: 20px auto;
+    @extend .container-fluid;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
     // display: unset;
 
     > p {
