@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ImageItem from '../images/Food1.png';
+import ProductOverlay from './ProductOverlay.jsx';
 
 function ProductListItem(props) {
+    const [showPopup, setShowPopup] = useState(false);
+
+    function onItemClick() {
+        setShowPopup(!showPopup);
+    }
+
     return (
-        <div id="productListItem">
+        <>
+        <div id="productListItem" onClick={onItemClick}>
             <div>
                 <div>
                     <div>
@@ -19,6 +27,8 @@ function ProductListItem(props) {
                 </div>
             </div>
         </div>
+        {showPopup ? <ProductOverlay item={props.item} onItemClick={onItemClick}/> : null}
+        </>
     )
 }
 

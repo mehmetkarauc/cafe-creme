@@ -1,5 +1,5 @@
 #productListItem {
-    > div {
+    > div:first-child {
         @extend .row;
 
         > div:first-child {

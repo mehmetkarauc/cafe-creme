@@ -1,0 +1,57 @@
+#popup {
+    height: 700px !important;
+    width: 600px !important;
+    background-color: $lightColor;
+    border: 2px solid $primaryColor;
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 0 !important;
+
+    > img {
+        position: absolute;
+        height: 300px;
+        width: 596px;
+        z-index: 1;
+    }
+
+    #closeButton {
+        position: relative;
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+        margin-right: 10px;
+        float: right;
+        z-index: 2;
+        border-radius: 30px;
+        background-color: $lightColor;
+    }
+
+    > div {
+        margin-top: 310px;
+        margin-left: 20px;
+        width: 93%;
+
+        > p:first-child {
+            margin-bottom: 5px;
+        }
+
+        > p:nth-child(2) {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        > div {
+            border-top: 1px solid $primaryColor;
+            border-bottom: 1px solid $primaryColor;
+
+            > p:first-child {
+                font-size: 14px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
