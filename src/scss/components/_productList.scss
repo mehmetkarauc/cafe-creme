@@ -1,14 +1,47 @@
 .productList {
     @extend .container-fluid;
-    height: 620px;
+    width: 100%;
+    padding: 0px !important;
 
-    > p {
-        margin: 20px;
-        height: 100%;
-        width: 75%;
-        padding: 20px 1.5rem;
-        border-radius: 5px;
-        border: 2px solid $primaryColor;
+    > div {
+        @extend .row;
+        margin: 20px !important;
         font-size: 22px;
+
+        > div:first-child {
+            @extend .col-lg-9;
+            width: 73% !important;
+            min-height: 620px;
+            height: auto;
+            padding: 10px 1.5rem;
+            border-radius: 5px;
+            border: 2px solid $primaryColor;
+
+            > #section {
+                @extend .container;
+                padding: 0 !important;
+
+                > #sectionRow {
+                    @extend .row;
+                    padding: 0;
+                    margin: 0 !important;
+
+                    #productListItem {
+                        width: calc(50% - 50px);
+                        margin: 10px 25px;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+
+        > div:nth-child(2) {
+            @extend .col-lg-3;
+            margin: 0 0 0 auto;
+            height: 600px;
+            padding: 20px 1.5rem;
+            border-radius: 5px;
+            border: 2px solid $primaryColor;
+        }
     }
 }

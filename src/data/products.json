@@ -1,5 +1,5 @@
 {
-    "Set Brekfast": [
+    "Set Breakfast": [
         {
             "id": 1,
             "name": "English Breakfast",
@@ -9,21 +9,21 @@
         },
         {
             "id": 2,
-            "name": "English Breakfast",
+            "name": "Cafe Creme Breakfast",
             "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
             "price": "18.30",
             "imageURL": "../images/Food1.png"
         },
         {
             "id": 3,
-            "name": "English Breakfast",
+            "name": "Vegan Breakfast",
             "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
             "price": "18.30",
             "imageURL": "../images/Food1.png"
         },
         {
             "id": 4,
-            "name": "English Breakfast",
+            "name": "Turkish Breakfast",
             "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
             "price": "18.30",
             "imageURL": "../images/Food1.png"
@@ -32,28 +32,28 @@
     "Create Your Own": [
         {
             "id": 5,
-            "name": "English Breakfast",
+            "name": "1 Item Breakfast",
             "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
             "price": "18.30",
             "imageURL": "../images/Food1.png"
         },
         {
             "id": 6,
-            "name": "English Breakfast",
+            "name": "2 Item Breakfast",
             "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
             "price": "18.30",
             "imageURL": "../images/Food1.png"
         },
         {
             "id": 7,
-            "name": "English Breakfast",
+            "name": "3 Item Breakfast",
             "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
             "price": "18.30",
             "imageURL": "../images/Food1.png"
         },
         {
             "id": 8,
-            "name": "English Breakfast",
+            "name": "4 Item Breakfast",
             "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
             "price": "18.30",
             "imageURL": "../images/Food1.png"
@@ -62,7 +62,7 @@
     "Homemade Soups": [
         {
             "id": 9,
-            "name": "English Breakfast",
+            "name": "Lentil Soup",
             "description": "Two Pancakes with Nutella, Topped with Banana Slices, Fried Egg, Halloumi Cheese, Mushrooms, Beans",
             "price": "18.30",
             "imageURL": "../images/Food1.png"
