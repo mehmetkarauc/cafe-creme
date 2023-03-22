@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import MenuSectionsTitle from './MenuSectionsTitle';
-import ProductListItem from './ProductListItem';
+import Basket from './Basket.jsx';
+import MenuSectionsTitle from './MenuSectionsTitle.jsx';
+import ProductListItem from './ProductListItem.jsx';
 
 function ProductList(props) {
   const [data, setData] = useState(props.data);
@@ -27,7 +28,7 @@ function ProductList(props) {
         )}
         </div>
         <div>
-          <p>Basket</p>
+          <Basket />
         </div>
       </div>
     </div>
