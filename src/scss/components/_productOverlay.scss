@@ -33,25 +33,39 @@
         margin-top: 310px;
         margin-left: 20px;
         width: 93%;
+        text-align: center;
 
         > p:first-child {
             margin-bottom: 5px;
+            text-align: left;
+            font-size: 22px;
         }
 
         > p:nth-child(2) {
             font-size: 16px;
             margin-bottom: 10px;
+            text-align: left;
         }
 
         > div {
             border-top: 1px solid $primaryColor;
             border-bottom: 1px solid $primaryColor;
 
-            > p:first-child {
+            > p {
                 font-size: 14px;
                 margin-bottom: 10px;
                 margin-top: 10px;
             }
+        }
+
+        #addButton {
+            width: 50%;
+            border: 1px solid $primaryColor;
+            background-color: $lightColor;
+            border-radius: 10px;
+            color: $primaryColor;
+            font-size: 16px;
+            height: 40px;
         }
     }
 }

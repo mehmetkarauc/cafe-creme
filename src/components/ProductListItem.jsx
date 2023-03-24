@@ -11,23 +11,25 @@ function ProductListItem(props) {
 
     return (
         <>
-        <div id="productListItem" onClick={onItemClick}>
-            <div>
+            <div id="productListItem" onClick={onItemClick}>
                 <div>
                     <div>
                         <div>
-                            <p>{props.item.name}</p>
-                            <p>{props.item.description}</p>
-                            <p>£{props.item.price}</p>
-                        </div>
-                        <div>
-                            <img src={ImageItem} alt="item"/>
+                            <div>
+                                <div>
+                                    <p>{props.item.name}</p>
+                                    <p>{props.item.description}</p>
+                                    <p>£{props.item.price}</p>
+                                </div>
+                                <div>
+                                    <img src={ImageItem} alt="item"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        {showPopup ? <ProductOverlay item={props.item} onItemClick={onItemClick}/> : null}
+            {showPopup ? <ProductOverlay item={props.item} onItemClick={onItemClick}/> : null}
         </>
     )
 }
