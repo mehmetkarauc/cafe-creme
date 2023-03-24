@@ -15,17 +15,17 @@ function ProductList(props) {
     <div className="productList">
       <div>
         <div>
-        { Object.keys(data).map((section, index) => 
-          <div id="section">
-            <MenuSectionsTitle index={index} text={ section }/>
+          { Object.keys(data).map((section, index) => 
+            <div id="section">
+              <MenuSectionsTitle index={index} text={ section }/>
 
-            <div id="sectionRow">
-              {data[section].map((item, itemIndex) => (
-                <ProductListItem key={itemIndex} item={item} />
-              ))}
+              <div id="sectionRow">
+                {data[section].map((item, itemIndex) => (
+                  <ProductListItem key={itemIndex} item={item} />
+                ))}
+              </div>
             </div>
-          </div>
-        )}
+          )}
         </div>
         <div>
           <Basket />

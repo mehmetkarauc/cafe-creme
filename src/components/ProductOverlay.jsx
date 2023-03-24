@@ -15,9 +15,7 @@ function ProductOverlay(props) {
             <div>
                 <p>Questions about allergies, ingredients or cooking methods, please contact the restaurant.</p>
             </div>
-            {/* <div>
-                <button>Add for £{props.item.price}</button>
-            </div> */}
+            <button id='addButton'>Add for £{props.item.price}</button>
         </div>
     </div>
   )
