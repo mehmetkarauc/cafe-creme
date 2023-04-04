@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 function ProductNavbar(props) {
     const [data, setData] = useState(props.data);
@@ -35,5 +36,9 @@ function ProductNavbar(props) {
     </div>
   )
 }
+
+ProductNavbar.propTypes = {
+    data: PropTypes.object.isRequired
+  };
 
 export default ProductNavbar;
