@@ -44,7 +44,7 @@ function Navbar() {
         <nav className={`${menuOpen && size.width < 1010 ? 'isMenu' : ''}`}>
             <ul>
                 <li>
-                    <Link to="/" onClick={menuToggleHandler}>Home</Link>
+                    <Link to="/" data-cy="homeLink" onClick={menuToggleHandler}>Home</Link>
                 </li>
                 <li>
                     <Link to="/about" onClick={menuToggleHandler}>About</Link>

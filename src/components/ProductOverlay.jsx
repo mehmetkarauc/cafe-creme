@@ -1,9 +1,9 @@
 import React from 'react';
 import ItemImage from '../images/Food1.png';
 import { RxCrossCircled } from 'react-icons/rx';
+import PropTypes from 'prop-types';
 
 function ProductOverlay(props) {
-    console.log(props.item);
 
   return (
     <div id='popup'>
@@ -20,5 +20,15 @@ function ProductOverlay(props) {
     </div>
   )
 }
+
+ProductOverlay.propTypes = {
+  item: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    price: PropTypes.string.isRequired,
+    imageURL: PropTypes.string.isRequired
+  }).isRequired,
+};
 
 export default ProductOverlay;
