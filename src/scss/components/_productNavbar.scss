@@ -6,10 +6,12 @@
 
     > nav {
         height: 100%;
+        width: calc(100% - 40px);
+        margin: 20px;
 
         > ul {
-            margin: 20px;
             height: 100%;
+            width: auto;
             padding: 0;
             border-radius: 5px;
             border: 2px solid $primaryColor;
@@ -22,6 +24,18 @@
                 font-size: 18px;
                 text-decoration: none;
                 color: $primaryColor;
+            }
+
+            > select {
+                margin: 0 20px 0 auto;
+                padding: 4px;
+                white-space: nowrap;
+                font-size: 18px;
+                text-decoration: none;
+                color: $primaryColor;
+                // position: absolute;
+                // top: 130px;
+                // right: 20px;
             }
         }
     }
